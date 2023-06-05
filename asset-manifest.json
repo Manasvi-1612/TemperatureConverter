@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cd64d03.css",
-    "main.js": "/static/js/main.e40c02a8.js",
-    "static/js/787.2a642c2b.chunk.js": "/static/js/787.2a642c2b.chunk.js",
-    "index.html": "/index.html",
-    "main.5cd64d03.css.map": "/static/css/main.5cd64d03.css.map",
-    "main.e40c02a8.js.map": "/static/js/main.e40c02a8.js.map",
-    "787.2a642c2b.chunk.js.map": "/static/js/787.2a642c2b.chunk.js.map"
+    "main.css": "/TemperatureConverter/static/css/main.5cd64d03.css",
+    "main.js": "/TemperatureConverter/static/js/main.8c83e5dc.js",
+    "static/js/787.2a642c2b.chunk.js": "/TemperatureConverter/static/js/787.2a642c2b.chunk.js",
+    "index.html": "/TemperatureConverter/index.html",
+    "main.5cd64d03.css.map": "/TemperatureConverter/static/css/main.5cd64d03.css.map",
+    "main.8c83e5dc.js.map": "/TemperatureConverter/static/js/main.8c83e5dc.js.map",
+    "787.2a642c2b.chunk.js.map": "/TemperatureConverter/static/js/787.2a642c2b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cd64d03.css",
-    "static/js/main.e40c02a8.js"
+    "static/js/main.8c83e5dc.js"
   ]
 }
