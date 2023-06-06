@@ -31,7 +31,7 @@ export default function Input() {
         }
 
         else if (from === "Fahrenheit" && to === "Degree Celcius") {
-            let Celcius = Number.parseFloat(input) - 32 * (5 / 9)
+            let Celcius = [(Number.parseFloat(input) - 32)*5]/9
             setResult(Celcius.toFixed(2) + ` °C`)
         }
 
@@ -41,7 +41,7 @@ export default function Input() {
         }
 
         else if (from === "Fahrenheit" && to === "Kelvin") {
-            let Kelvin = Number.parseFloat(input) - 32 * (5 / 9) + 273.15
+            let Kelvin = (Number.parseFloat(input) - 32) * (5 / 9) + 273.15
             setResult(Kelvin.toFixed(2) + " K")
         }
 
@@ -51,7 +51,7 @@ export default function Input() {
         }
 
         else if (from === "Kelvin" && to === "Fahrenheit") {
-            let Fahrenheit = Number.parseFloat(input) - 273.15 * (9 / 5) + 32
+            let Fahrenheit = (Number.parseFloat(input) - 273.15) * (9 / 5) + 32
             setResult(Fahrenheit.toFixed(2) + " F")
         }
 
